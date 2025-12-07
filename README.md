@@ -1,7 +1,7 @@
- Volunteer Management System - Java + JDBC(Web App)
+# Volunteer Management System - Java + JDBC(Web App)
  Volunteer Management System is a web-based application designed to simplify the process of managing volunteers for college events. 
  The system automatically matches volunteers to suitable event tasks based on their skills, interests, and availability.
-1. Project Overview
+# 1. Project Overview
   The project’s core goal is to automate volunteer assignment and management by allowing:
 🔹 Volunteers to:
   - Register & Login
@@ -13,8 +13,8 @@
   - View volunteer applicants
   - Approve or Reject applications
   - Auto-suggestion of best volunteers
-2.Project Structure
-VolunteerManagementSystem/
+# 2.Project Structure
+ VolunteerManagementSystem/
 │
 ├─ frontend/                 # HTML, CSS, JavaScript-based UI
 │   ├─ css/
