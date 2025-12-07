@@ -14,21 +14,22 @@
   - Approve or Reject applications
   - Auto-suggestion of best volunteers
 # 2.Project Structure
- VolunteerManagementSystem/
+VolunteerManagementSystem/
 │
-├─ frontend/                 # HTML, CSS, JavaScript-based UI
-│   ├─ css/
-│   ├─ js/
-│   └─ *.html
+├─ frontend/                     # HTML, CSS, JavaScript-based UI
+│   ├─ css/                      # Stylesheets
+│   ├─ js/                       # Scripts & form validations
+│   └─ *.html                    # Web pages (Login, Register, Events, etc.)
 │
-├─ backend/                  # Java backend (Servlets & Logic)
-│   ├─ controller/
-│   ├─ dao/
-│   ├─ model/
-│   └─ util/
+├─ backend/                      # Java backend + business logic
+│   ├─ controller/               # Request handling & Servlets (if used)
+│   ├─ dao/                      # Database operations (JDBC CRUD)
+│   ├─ model/                    # Java classes (Event, Volunteer, Application)
+│   └─ util/                     # DB connection and helpers
 │
 └─ database/
-    └─ volunteer_db.sql      # MySQL structures & sample data
+    └─ volunteer_db.sql          # MySQL tables & sample data
+
 
 
 
