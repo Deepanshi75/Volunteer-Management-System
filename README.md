@@ -3,12 +3,12 @@
  The system automatically matches volunteers to suitable event tasks based on their skills, interests, and availability.
 # 1. Project Overview
   The project’s core goal is to automate volunteer assignment and management by allowing:
-#🔹 Volunteers to:
+# Volunteers to:
   - Register & Login
   - Select skills (Photography, Anchoring, Decoration, etc.)
   - Enter available dates & interests
   - View events and apply for tasks
-#🔹 Event Organizers/Admins to:
+# Event Organizers/Admins to:
   - Create Events & Tasks
   - View volunteer applicants
   - Approve or Reject applications
